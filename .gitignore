@@ -1,0 +1,65 @@
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# SBT build output
+target/
+project/target/
+project/project/
+
+# SBT-specific files
+.metals/
+.bloop/
+.bsp/
+coursier/
+.idea_modules/
+.history/
+.classpath
+.project
+.settings/
+*.log
+.cache
+*.swp
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.lock
+*.class
+
+# OS-generated files
+*.DS_Store
+Thumbs.db
+
+# Application files
+*.jar
+*.war
+*.ear
+
+# Test result files
+*.test-result
+
+# Dependency caches
+lib_managed/
+src_managed/
+node_modules/
+dist/
+
+# Scala and SBT-specific caches
+.cache/
+.cache-main/
+coursier/
+project/boot/
+
+# IntelliJ IDEA specific files
+*.iws
+*.ipr
+*.swp
