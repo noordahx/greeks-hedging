@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/prj10/greeks-hedging/src/main/scala/DeltaHedging.scala:156:77 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m156 |[0m        optionsList = OptionPosition(stockSymbol, optType, strike, maturity, quantity) :: optionsList[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                             ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   Found:    (quantity : Double | Int)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
